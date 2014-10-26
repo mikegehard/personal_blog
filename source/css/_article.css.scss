@@ -1,0 +1,47 @@
+article {
+  position: relative;
+  header {
+    margin: .8em 0;
+    overflow: hidden;
+  }
+  h2 {
+    margin-left: 1.8em;
+    padding-top: .1em;
+  }
+  ul{
+    list-style: disc;
+    margin-left:2em;
+    margin-bottom:1em;
+    li{
+
+    }
+  }
+}
+
+article time {
+  background-color: lightgray;
+  padding: .5em .8em;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  font-size: .8em;
+  border-radius: .3em;
+  .month, .day, .year {
+    display: block;
+    line-height: .9em;
+    text-align: center;
+
+  }
+  .month {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .day {
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+  .year {
+
+  }
+
+}
