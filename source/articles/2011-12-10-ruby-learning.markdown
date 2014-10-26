@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Ruby Learning"
 date: 2011-12-10 12:27
 comments: false

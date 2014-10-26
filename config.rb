@@ -31,6 +31,10 @@ end
 
 page "/feed.xml", layout: false
 
+activate :disqus do |d|
+  d.shortname = 'your-shortname' # Replace with your Disqus shortname.
+end
+
 ###
 # Compass
 ###

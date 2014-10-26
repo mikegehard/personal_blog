@@ -1,0 +1,28 @@
+div.headerContainer {
+  header {
+    @include outer-container();
+  }
+}
+
+div.contentContainer {
+  @include outer-container();
+
+  @include media($large-screen) {
+
+    section.mainContent {
+      @include span-columns(9);
+    }
+
+    aside.sideContent {
+      @include span-columns(3);
+    }
+
+  }
+}
+
+div.footerContainer{
+  footer{
+    @include outer-container();
+    padding:1em;
+  }
+}

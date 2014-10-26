@@ -1,0 +1,18 @@
+.blog_home{
+  article section{
+    margin-left:4em;
+  }
+}
+
+.blog_articles{
+  table{
+    td.time{width:7em;}
+    td.article{
+      text-align:left;
+      a{
+        display:block;
+        padding: .2em .4em;
+      }
+    }
+  }
+}
